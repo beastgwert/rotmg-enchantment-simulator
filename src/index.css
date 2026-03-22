@@ -1,0 +1,45 @@
+:root {
+  --bg-dark: #000000;
+  --bg-panel: #30303b;
+  --bg-slot: #2a2a4a;
+  --bg-hover: #33335a;
+  --border: #73738c;
+  --border-accent: #5a5a8f;
+  --text: #ffffff;
+  --text-bright: #e0e0f0;
+  --text-dim: #a6a6b4;
+  --accent-gold: #d4a44a;
+  --accent-blue: #4a8fd4;
+  --accent-green: #4ad47a;
+  --accent-red: #d44a4a;
+  --accent-purple: #9a5ad4;
+  --lock-color: #d4a44a;
+  --unlock-color: #6a6a8a;
+
+  --sans: 'Segoe UI', system-ui, Roboto, sans-serif;
+  --mono: ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, monospace;
+
+  font: 16px/1.5 var(--sans);
+  color: var(--text);
+  background: var(--bg-dark);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,251 @@
+/* ── Shared ── */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.5rem 1.25rem;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(0.75rem); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.screen-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--text-bright);
+  letter-spacing: -0.03em;
+  margin: 0;
+  text-align: center;
+}
+
+.screen-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-dim);
+  margin: -1.25rem 0 0;
+}
+
+/* ── Selection Grid (Equipment Type & Slot Count) ── */
+
+.selection-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.selection-card {
+  width: 8.75rem;
+  height: 8.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background: var(--bg-panel);
+  border: 0.125rem solid var(--border);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--text);
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.selection-card:hover {
+  color: var(--text-bright);
+  transform: translateY(-0.125rem);
+}
+
+.selection-card:active {
+  transform: translateY(0);
+}
+
+.selection-card .card-icon {
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.selection-card .card-label {
+  font-size: 0.875rem;
+  text-transform: capitalize;
+}
+
+/* ── Enchantment Page ── */
+
+.enchant-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2.5rem 1.25rem;
+  animation: fadeIn 0.3s ease;
+  width: 100%;
+  max-width: 35rem;
+}
+
+.enchant-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.enchant-header .back-btn {
+  background: none;
+  border: 0.0625rem solid var(--border);
+  border-radius: 0.375rem;
+  color: var(--text-dim);
+  cursor: pointer;
+  padding: 0.375rem 0.625rem;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+}
+
+.enchant-header .back-btn:hover {
+  border-color: var(--border-accent);
+  color: var(--text-bright);
+}
+
+.enchant-header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-bright);
+  margin: 0;
+}
+
+.enchant-header .header-meta {
+  margin-left: auto;
+  font-size: 0.8125rem;
+  color: var(--text-dim);
+}
+
+/* ── Enchantment Slots ── */
+
+.enchant-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  width: 100%;
+}
+
+.enchant-slot {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--bg-panel);
+  border: 0.125rem solid var(--border);
+  border-radius: 0.5rem;
+  padding: 0.875rem 1rem;
+  transition: border-color 0.2s;
+}
+
+.enchant-slot.rarity-common   { border-left: 0.25rem solid #8a8a8a; }
+.enchant-slot.rarity-uncommon { border-left: 0.25rem solid #4ad47a; }
+.enchant-slot.rarity-rare     { border-left: 0.25rem solid #4a8fd4; }
+.enchant-slot.rarity-legendary { border-left: 0.25rem solid #d4a44a; }
+
+.slot-index {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  min-width: 1.125rem;
+  text-align: center;
+}
+
+.slot-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.slot-name {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--text-bright);
+}
+
+.slot-tier {
+  font-size: 0.75rem;
+  font-family: var(--mono);
+  color: var(--text-dim);
+}
+
+.lock-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.375rem;
+  border-radius: 0.25rem;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lock-btn:hover {
+  background: var(--bg-hover);
+}
+
+.lock-btn .lock-icon {
+  font-size: 1.125rem;
+  transition: color 0.15s;
+}
+
+.lock-btn.locked .lock-icon {
+  color: var(--lock-color);
+}
+
+.lock-btn.unlocked .lock-icon {
+  color: var(--unlock-color);
+}
+
+/* ── Roll Button ── */
+
+.roll-btn {
+  width: 100%;
+  padding: 0.875rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--bg-dark);
+  background: var(--accent-gold);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.roll-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-0.0625rem);
+}
+
+.roll-btn:active {
+  transform: translateY(0);
+  filter: brightness(0.95);
+}
+
+.roll-count {
+  font-size: 0.8125rem;
+  color: var(--text-dim);
+  font-family: var(--mono);
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 40rem) {
+  .selection-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .selection-card {
+    width: 8rem;
+    height: 8rem;
+  }
+}

@@ -1,0 +1,8927 @@
+{
+  "meta": {
+    "source": "enchantments.csv",
+    "weightMode": "base",
+    "includesAwakened": false,
+    "notes": [
+      "EQUIPMENT means all gear types.",
+      "Exact duplicate enchantments are disallowed.",
+      "Unique and awakened enchantments use a single MAX tier."
+    ]
+  },
+  "enchantments": [
+    {
+      "id": "attack-bonus",
+      "name": "Attack Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "defense-bonus",
+      "name": "Defense Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "dexterity-bonus",
+      "name": "Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "mana-bonus",
+      "name": "Mana Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "life-bonus",
+      "name": "Life Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "speed-bonus",
+      "name": "Speed Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "vitality-bonus",
+      "name": "Vitality Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "wisdom-bonus",
+      "name": "Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "relative-attack-bonus",
+      "name": "Relative Attack Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "RELATIVEBONUS",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 17000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 52000
+    },
+    {
+      "id": "relative-defense-bonus",
+      "name": "Relative Defense Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "RELATIVEBONUS",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 17000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 52000
+    },
+    {
+      "id": "relative-dexterity-bonus",
+      "name": "Relative Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "RELATIVEBONUS",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 17000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 52000
+    },
+    {
+      "id": "relative-mana-bonus",
+      "name": "Relative Mana Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "RELATIVEBONUS",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 17000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 52000
+    },
+    {
+      "id": "relative-life-bonus",
+      "name": "Relative Life Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "RELATIVEBONUS",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 17000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 52000
+    },
+    {
+      "id": "relative-speed-bonus",
+      "name": "Relative Speed Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "RELATIVEBONUS",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 17000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 52000
+    },
+    {
+      "id": "relative-vitality-bonus",
+      "name": "Relative Vitality Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "RELATIVEBONUS",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 17000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 52000
+    },
+    {
+      "id": "relative-wisdom-bonus",
+      "name": "Relative Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "RELATIVEBONUS",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 17000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 52000
+    },
+    {
+      "id": "defense-to-attack-bonus",
+      "name": "Defense to Attack Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "dexterity-to-attack-bonus",
+      "name": "Dexterity to Attack Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "mana-to-attack-bonus",
+      "name": "Mana to Attack Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "life-to-attack-bonus",
+      "name": "Life to Attack Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "speed-to-attack-bonus",
+      "name": "Speed to Attack Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "vitality-to-attack-bonus",
+      "name": "Vitality to Attack Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "wisdom-to-attack-bonus",
+      "name": "Wisdom to Attack Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "attack-to-defense-bonus",
+      "name": "Attack to Defense Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "dexterity-to-defense-bonus",
+      "name": "Dexterity to Defense Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "mana-to-defense-bonus",
+      "name": "Mana to Defense Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "life-to-defense-bonus",
+      "name": "Life to Defense Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "speed-to-defense-bonus",
+      "name": "Speed to Defense Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "vitality-to-defense-bonus",
+      "name": "Vitality to Defense Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "wisdom-to-defense-bonus",
+      "name": "Wisdom to Defense Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "attack-to-dexterity-bonus",
+      "name": "Attack to Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "defense-to-dexterity-bonus",
+      "name": "Defense to Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "mana-to-dexterity-bonus",
+      "name": "Mana to Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "life-to-dexterity-bonus",
+      "name": "Life to Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "speed-to-dexterity-bonus",
+      "name": "Speed to Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "vitality-to-dexterity-bonus",
+      "name": "Vitality to Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "wisdom-to-dexterity-bonus",
+      "name": "Wisdom to Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "attack-to-mana-bonus",
+      "name": "Attack to Mana Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "defense-to-mana-bonus",
+      "name": "Defense to Mana Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "dexterity-to-mana-bonus",
+      "name": "Dexterity to Mana Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "life-to-mana-bonus",
+      "name": "Life to Mana Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "speed-to-mana-bonus",
+      "name": "Speed to Mana Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "vitality-to-mana-bonus",
+      "name": "Vitality to Mana Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "wisdom-to-mana-bonus",
+      "name": "Wisdom to Mana Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "attack-to-life-bonus",
+      "name": "Attack to Life Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "defense-to-life-bonus",
+      "name": "Defense to Life Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "dexterity-to-life-bonus",
+      "name": "Dexterity to Life Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "mana-to-life-bonus",
+      "name": "Mana to Life Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "speed-to-life-bonus",
+      "name": "Speed to Life Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "vitality-to-life-bonus",
+      "name": "Vitality to Life Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "wisdom-to-life-bonus",
+      "name": "Wisdom to Life Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "attack-to-speed-bonus",
+      "name": "Attack to Speed Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "defense-to-speed-bonus",
+      "name": "Defense to Speed Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "dexterity-to-speed-bonus",
+      "name": "Dexterity to Speed Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "mana-to-speed-bonus",
+      "name": "Mana to Speed Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "life-to-speed-bonus",
+      "name": "Life to Speed Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "vitality-to-speed-bonus",
+      "name": "Vitality to Speed Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "wisdom-to-speed-bonus",
+      "name": "Wisdom to Speed Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "attack-to-vitality-bonus",
+      "name": "Attack to Vitality Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "defense-to-vitality-bonus",
+      "name": "Defense to Vitality Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "dexterity-to-vitality-bonus",
+      "name": "Dexterity to Vitality Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "mana-to-vitality-bonus",
+      "name": "Mana to Vitality Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "life-to-vitality-bonus",
+      "name": "Life to Vitality Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "speed-to-vitality-bonus",
+      "name": "Speed to Vitality Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "wisdom-to-vitality-bonus",
+      "name": "Wisdom to Vitality Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "attack-to-wisdom-bonus",
+      "name": "Attack to Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "defense-to-wisdom-bonus",
+      "name": "Defense to Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "dexterity-to-wisdom-bonus",
+      "name": "Dexterity to Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "mana-to-wisdom-bonus",
+      "name": "Mana to Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "life-to-wisdom-bonus",
+      "name": "Life to Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "speed-to-wisdom-bonus",
+      "name": "Speed to Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "vitality-to-wisdom-bonus",
+      "name": "Vitality to Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "CONVERSION BONUS",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1375
+        }
+      ],
+      "totalWeight": 12000
+    },
+    {
+      "id": "attack-and-defense-bonus",
+      "name": "Attack and Defense Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "ATTACK",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "attack-and-dexterity-bonus",
+      "name": "Attack and Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "ATTACK",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "attack-and-mana-bonus",
+      "name": "Attack and Mana Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "ATTACK",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "attack-and-life-bonus",
+      "name": "Attack and Life Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "ATTACK",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "attack-and-speed-bonus",
+      "name": "Attack and Speed Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "ATTACK",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "attack-and-vitality-bonus",
+      "name": "Attack and Vitality Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "ATTACK",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "attack-and-wisdom-bonus",
+      "name": "Attack and Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "ATTACK",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "defense-and-dexterity-bonus",
+      "name": "Defense and Dexterity Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEFENSE",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "defense-and-mana-bonus",
+      "name": "Defense and Mana Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEFENSE",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "defense-and-life-bonus",
+      "name": "Defense and Life Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEFENSE",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "defense-and-speed-bonus",
+      "name": "Defense and Speed Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEFENSE",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "defense-and-vitality-bonus",
+      "name": "Defense and Vitality Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEFENSE",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "defense-and-wisdom-bonus",
+      "name": "Defense and Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEFENSE",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "dexterity-and-mana-bonus",
+      "name": "Dexterity and Mana Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEXTERITY",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "dexterity-and-life-bonus",
+      "name": "Dexterity and Life Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEXTERITY",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "dexterity-and-speed-bonus",
+      "name": "Dexterity and Speed Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEXTERITY",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "dexterity-and-vitality-bonus",
+      "name": "Dexterity and Vitality Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEXTERITY",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "dexterity-and-wisdom-bonus",
+      "name": "Dexterity and Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "DEXTERITY",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "mana-and-life-bonus",
+      "name": "Mana and Life Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "MANA",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "mana-and-speed-bonus",
+      "name": "Mana and Speed Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "MANA",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "mana-and-vitality-bonus",
+      "name": "Mana and Vitality Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "MANA",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "mana-and-wisdom-bonus",
+      "name": "Mana and Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "MANA",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "life-and-speed-bonus",
+      "name": "Life and Speed Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "LIFE",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "life-and-vitality-bonus",
+      "name": "Life and Vitality Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "LIFE",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "life-and-wisdom-bonus",
+      "name": "Life and Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "LIFE",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "speed-and-vitality-bonus",
+      "name": "Speed and Vitality Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "SPEED",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "speed-and-wisdom-bonus",
+      "name": "Speed and Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "SPEED",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "vitality-and-wisdom-bonus",
+      "name": "Vitality and Wisdom Bonus",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "VITALITY",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "attack-defense-tradeoff",
+      "name": "Attack -Defense Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEFENSE",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "attack-dexterity-tradeoff",
+      "name": "Attack -Dexterity Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEXTERITY",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "attack-mana-tradeoff",
+      "name": "Attack -Mana Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "MANA",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "attack-life-tradeoff",
+      "name": "Attack -Life Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "LIFE",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "attack-speed-tradeoff",
+      "name": "Attack -Speed Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "SPEED",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "attack-vitality-tradeoff",
+      "name": "Attack -Vitality Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "VITALITY",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "attack-wisdom-tradeoff",
+      "name": "Attack -Wisdom Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "WISDOM",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "defense-attack-tradeoff",
+      "name": "Defense -Attack Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "ATTACK",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "defense-dexterity-tradeoff",
+      "name": "Defense -Dexterity Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEXTERITY",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "defense-mana-tradeoff",
+      "name": "Defense -Mana Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "MANA",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "defense-life-tradeoff",
+      "name": "Defense -Life Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "LIFE",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "defense-speed-tradeoff",
+      "name": "Defense -Speed Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "SPEED",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "defense-vitality-tradeoff",
+      "name": "Defense -Vitality Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "VITALITY",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "defense-wisdom-tradeoff",
+      "name": "Defense -Wisdom Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "WISDOM",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "dexterity-attack-tradeoff",
+      "name": "Dexterity -Attack Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "ATTACK",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "dexterity-defense-tradeoff",
+      "name": "Dexterity -Defense Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEFENSE",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "dexterity-mana-tradeoff",
+      "name": "Dexterity -Mana Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "MANA",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "dexterity-life-tradeoff",
+      "name": "Dexterity -Life Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "LIFE",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "dexterity-speed-tradeoff",
+      "name": "Dexterity -Speed Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "SPEED",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "dexterity-vitality-tradeoff",
+      "name": "Dexterity -Vitality Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "VITALITY",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "dexterity-wisdom-tradeoff",
+      "name": "Dexterity -Wisdom Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "WISDOM",
+        "DEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "mana-attack-tradeoff",
+      "name": "Mana -Attack Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "ATTACK",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "mana-defense-tradeoff",
+      "name": "Mana -Defense Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEFENSE",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "mana-dexterity-tradeoff",
+      "name": "Mana -Dexterity Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEXTERITY",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "mana-life-tradeoff",
+      "name": "Mana -Life Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "LIFE",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "mana-speed-tradeoff",
+      "name": "Mana -Speed Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "SPEED",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "mana-vitality-tradeoff",
+      "name": "Mana -Vitality Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "VITALITY",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "mana-wisdom-tradeoff",
+      "name": "Mana -Wisdom Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "WISDOM",
+        "MANA"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "life-attack-tradeoff",
+      "name": "Life -Attack Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "ATTACK",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "life-defense-tradeoff",
+      "name": "Life -Defense Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEFENSE",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "life-dexterity-tradeoff",
+      "name": "Life -Dexterity Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEXTERITY",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "life-mana-tradeoff",
+      "name": "Life -Mana Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "MANA",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "life-speed-tradeoff",
+      "name": "Life -Speed Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "SPEED",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "life-vitality-tradeoff",
+      "name": "Life -Vitality Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "VITALITY",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "life-wisdom-tradeoff",
+      "name": "Life -Wisdom Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "WISDOM",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "speed-attack-tradeoff",
+      "name": "Speed -Attack Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "ATTACK",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "speed-defense-tradeoff",
+      "name": "Speed -Defense Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEFENSE",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "speed-dexterity-tradeoff",
+      "name": "Speed -Dexterity Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEXTERITY",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "speed-mana-tradeoff",
+      "name": "Speed -Mana Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "MANA",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "speed-life-tradeoff",
+      "name": "Speed -Life Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "LIFE",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "speed-vitality-tradeoff",
+      "name": "Speed -Vitality Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "VITALITY",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "speed-wisdom-tradeoff",
+      "name": "Speed -Wisdom Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "WISDOM",
+        "SPEED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "vitality-attack-tradeoff",
+      "name": "Vitality -Attack Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "ATTACK",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "vitality-defense-tradeoff",
+      "name": "Vitality -Defense Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEFENSE",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "vitality-dexterity-tradeoff",
+      "name": "Vitality -Dexterity Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEXTERITY",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "vitality-mana-tradeoff",
+      "name": "Vitality -Mana Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "MANA",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "vitality-life-tradeoff",
+      "name": "Vitality -Life Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "LIFE",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "vitality-speed-tradeoff",
+      "name": "Vitality -Speed Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "SPEED",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "vitality-wisdom-tradeoff",
+      "name": "Vitality -Wisdom Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "WISDOM",
+        "VITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "wisdom-attack-tradeoff",
+      "name": "Wisdom -Attack Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "ATTACK",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "wisdom-defense-tradeoff",
+      "name": "Wisdom -Defense Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEFENSE",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "wisdom-dexterity-tradeoff",
+      "name": "Wisdom -Dexterity Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "DEXTERITY",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "wisdom-mana-tradeoff",
+      "name": "Wisdom -Mana Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "MANA",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "wisdom-life-tradeoff",
+      "name": "Wisdom -Life Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "LIFE",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "wisdom-speed-tradeoff",
+      "name": "Wisdom -Speed Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "SPEED",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "wisdom-vitality-tradeoff",
+      "name": "Wisdom -Vitality Tradeoff",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "TRADEOFF",
+        "FLATBONUS",
+        "VITALITY",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 4375
+        },
+        {
+          "tier": 2,
+          "weight": 3750
+        },
+        {
+          "tier": 3,
+          "weight": 2500
+        },
+        {
+          "tier": 4,
+          "weight": 1875
+        }
+      ],
+      "totalWeight": 12500
+    },
+    {
+      "id": "loot-bonus",
+      "name": "Loot Bonus",
+      "labels": [
+        "REWARD",
+        "REWARDBONUS",
+        "LOOT"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "REWARDBONUS"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "xp-bonus",
+      "name": "XP Bonus",
+      "labels": [
+        "REWARD",
+        "REWARDBONUS",
+        "XP"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "REWARDBONUS"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "dust-bonus",
+      "name": "Dust Bonus",
+      "labels": [
+        "REWARD",
+        "REWARDBONUS",
+        "DUST"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "REWARDBONUS"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "damage-bonus",
+      "name": "Damage Bonus",
+      "labels": [
+        "WEAPONDAMAGE"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "firerate-bonus",
+      "name": "FireRate Bonus",
+      "labels": [
+        "WEAPONFIRERATE"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "damage-fire-rate-tradeoff",
+      "name": "Damage -Fire rate Tradeoff",
+      "labels": [
+        "TRADEOFF",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "firerate-damage-tradeoff",
+      "name": "FireRate -Damage Tradeoff",
+      "labels": [
+        "TRADEOFF",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "projectile-lifetime-bonus",
+      "name": "Projectile Lifetime Bonus",
+      "labels": [
+        "WEAPONRANGE",
+        "LIFETIME"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "WEAPONRANGE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "projectile-speed-bonus",
+      "name": "Projectile Speed Bonus",
+      "labels": [
+        "WEAPONRANGE",
+        "PROJSPEED"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "WEAPONRANGE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onshoot-attack-boost",
+      "name": "OnShoot Attack Boost",
+      "labels": [
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "ATTACK",
+        "PROCATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONSHOOTSTAT",
+        "PROCATTACK"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "ABILITY"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onshoot-defense-boost",
+      "name": "OnShoot Defense Boost",
+      "labels": [
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "DEFENSE",
+        "PROCDEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONSHOOTSTAT",
+        "PROCDEFENSE"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "ABILITY"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onshoot-dexterity-boost",
+      "name": "OnShoot Dexterity Boost",
+      "labels": [
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "DEXTERITY",
+        "PROCDEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONSHOOTSTAT",
+        "PROCDEXTERITY"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "ABILITY"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onshoot-vitality-boost",
+      "name": "OnShoot Vitality Boost",
+      "labels": [
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "VITALITY",
+        "PROCVITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONSHOOTSTAT",
+        "PROCVITALITY"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "ABILITY"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onshoot-wisdom-boost",
+      "name": "OnShoot Wisdom Boost",
+      "labels": [
+        "ONSHOOT",
+        "ONSHOOTSTAT",
+        "PROC",
+        "STATBOOST",
+        "WISDOM",
+        "PROCWISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONSHOOTSTAT",
+        "PROCWISDOM"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "ABILITY"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onshoot-heal",
+      "name": "OnShoot Heal",
+      "labels": [
+        "ONSHOOT",
+        "RECOVERY",
+        "PROC",
+        "HEAL"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "HEAL"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "ABILITY"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onshoot-magic",
+      "name": "OnShoot Magic",
+      "labels": [
+        "ONSHOOT",
+        "RECOVERY",
+        "PROC",
+        "MAGIC"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "MAGIC"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "ABILITY"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "mp-cost-reduction",
+      "name": "Mp Cost Reduction",
+      "labels": [
+        "CASTING",
+        "MPCOSTREDUCTION"
+      ],
+      "itemLabels": [
+        "ABILITY"
+      ],
+      "incompatibleGroups": [
+        "MPCOSTREDUCTION",
+        "STATMODMULT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "stat-mod-multiplier",
+      "name": "Stat Mod Multiplier",
+      "labels": [
+        "CASTING",
+        "STATMODMULT"
+      ],
+      "itemLabels": [
+        "ABILITY"
+      ],
+      "incompatibleGroups": [
+        "MPCOSTREDUCTION",
+        "STATMODMULT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "onability-attack-boost",
+      "name": "OnAbility Attack Boost",
+      "labels": [
+        "ONABILITY",
+        "ONABILITYSTAT",
+        "PROC",
+        "STATBOOST",
+        "ATTACK",
+        "PROCATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONABILITYSTAT",
+        "PROCATTACK"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onability-defense-boost",
+      "name": "OnAbility Defense Boost",
+      "labels": [
+        "ONABILITY",
+        "ONABILITYSTAT",
+        "PROC",
+        "STATBOOST",
+        "DEFENSE",
+        "PROCDEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONABILITYSTAT",
+        "PROCDEFENSE"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onability-dexterity-boost",
+      "name": "OnAbility Dexterity Boost",
+      "labels": [
+        "ONABILITY",
+        "ONABILITYSTAT",
+        "PROC",
+        "STATBOOST",
+        "DEXTERITY",
+        "PROCDEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONABILITYSTAT",
+        "PROCDEXTERITY"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onability-vitality-boost",
+      "name": "OnAbility Vitality Boost",
+      "labels": [
+        "ONABILITY",
+        "ONABILITYSTAT",
+        "PROC",
+        "STATBOOST",
+        "VITALITY",
+        "PROCVITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONABILITYSTAT",
+        "PROCVITALITY"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onability-wisdom-boost",
+      "name": "OnAbility Wisdom Boost",
+      "labels": [
+        "ONABILITY",
+        "ONABILITYSTAT",
+        "PROC",
+        "STATBOOST",
+        "WISDOM",
+        "PROCWISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONABILITYSTAT",
+        "PROCWISDOM"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onability-heal",
+      "name": "OnAbility Heal",
+      "labels": [
+        "ONABILITY",
+        "RECOVERY",
+        "PROC",
+        "HEAL"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "HEAL"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onability-magic",
+      "name": "OnAbility Magic",
+      "labels": [
+        "ONABILITY",
+        "RECOVERY",
+        "PROC",
+        "MAGIC"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "MAGIC"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "flat-mana-regeneration",
+      "name": "Flat Mana Regeneration",
+      "labels": [
+        "RECOVERY",
+        "MANAREGEN",
+        "FLATREGEN"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "MANAREGEN"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "percentage-mana-regeneration",
+      "name": "Percentage Mana Regeneration",
+      "labels": [
+        "RECOVERY",
+        "MANAREGEN",
+        "PERCENTAGEREGEN"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "MANAREGEN"
+      ],
+      "incompatibleLabels": [
+        "ARMOR",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "damage-resistance",
+      "name": "Damage Resistance",
+      "labels": [
+        "DURABILITY",
+        "DAMAGERESISTANCE"
+      ],
+      "itemLabels": [
+        "ARMOR"
+      ],
+      "incompatibleGroups": [
+        "DAMAGERESISTANCE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "flat-life-regeneration",
+      "name": "Flat Life Regeneration",
+      "labels": [
+        "RECOVERY",
+        "LIFEREGEN",
+        "FLATREGEN"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "LIFEREGEN"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "percentage-life-regeneration",
+      "name": "Percentage Life Regeneration",
+      "labels": [
+        "RECOVERY",
+        "LIFEREGEN",
+        "PERCENTAGEREGEN"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "LIFEREGEN"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "onhit-attack-boost",
+      "name": "OnHit Attack Boost",
+      "labels": [
+        "ONHIT",
+        "ONHITSTAT",
+        "PROC",
+        "STATBOOST",
+        "ATTACK",
+        "PROCATTACK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONHITSTAT",
+        "PROCATTACK"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onhit-defense-boost",
+      "name": "OnHit Defense Boost",
+      "labels": [
+        "ONHIT",
+        "ONHITSTAT",
+        "PROC",
+        "STATBOOST",
+        "DEFENSE",
+        "PROCDEFENSE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONHITSTAT",
+        "PROCDEFENSE"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onhit-dexterity-boost",
+      "name": "OnHit Dexterity Boost",
+      "labels": [
+        "ONHIT",
+        "ONHITSTAT",
+        "PROC",
+        "STATBOOST",
+        "DEXTERITY",
+        "PROCDEXTERITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONHITSTAT",
+        "PROCDEXTERITY"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onhit-vitality-boost",
+      "name": "OnHit Vitality Boost",
+      "labels": [
+        "ONHIT",
+        "ONHITSTAT",
+        "PROC",
+        "STATBOOST",
+        "VITALITY",
+        "PROCVITALITY"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONHITSTAT",
+        "PROCVITALITY"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onhit-wisdom-boost",
+      "name": "OnHit Wisdom Boost",
+      "labels": [
+        "ONHIT",
+        "ONHITSTAT",
+        "PROC",
+        "STATBOOST",
+        "WISDOM",
+        "PROCWISDOM"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ONHITSTAT",
+        "PROCWISDOM"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 35000
+        },
+        {
+          "tier": 2,
+          "weight": 30000
+        },
+        {
+          "tier": 3,
+          "weight": 20000
+        },
+        {
+          "tier": 4,
+          "weight": 15000
+        }
+      ],
+      "totalWeight": 100000
+    },
+    {
+      "id": "onhit-heal",
+      "name": "OnHit Heal",
+      "labels": [
+        "ONHIT",
+        "RECOVERY",
+        "PROC",
+        "HEAL"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "HEAL"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onhit-magic",
+      "name": "OnHit Magic",
+      "labels": [
+        "ONHIT",
+        "RECOVERY",
+        "PROC",
+        "MAGIC"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "MAGIC"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onhit-berserk",
+      "name": "OnHit Berserk",
+      "labels": [
+        "ONHIT",
+        "RECOVERY",
+        "PROC",
+        "BERSERK"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "BERSERK"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onhit-armored",
+      "name": "OnHit Armored",
+      "labels": [
+        "ONHIT",
+        "RECOVERY",
+        "PROC",
+        "ARMORED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ARMORED"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onhit-damaging",
+      "name": "OnHit Damaging",
+      "labels": [
+        "ONHIT",
+        "RECOVERY",
+        "PROC",
+        "DAMAGING"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "DAMAGING"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onhit-energized",
+      "name": "OnHit Energized",
+      "labels": [
+        "ONHIT",
+        "RECOVERY",
+        "PROC",
+        "ENERGIZED"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "ENERGIZED"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onhit-healing",
+      "name": "OnHit Healing",
+      "labels": [
+        "ONHIT",
+        "RECOVERY",
+        "PROC",
+        "HEALING"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "HEALING"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "onhit-retaliation",
+      "name": "OnHit Retaliation",
+      "labels": [
+        "ONHIT",
+        "RECOVERY",
+        "PROC",
+        "BULLETCREATE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "BULLETCREATE"
+      ],
+      "incompatibleLabels": [
+        "ABILITY",
+        "WEAPON"
+      ],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 17500
+        },
+        {
+          "tier": 2,
+          "weight": 15000
+        },
+        {
+          "tier": 3,
+          "weight": 10000
+        },
+        {
+          "tier": 4,
+          "weight": 7500
+        }
+      ],
+      "totalWeight": 50000
+    },
+    {
+      "id": "xp-loot-bonus",
+      "name": "XP Loot Bonus",
+      "labels": [
+        "REWARD",
+        "DUALREWARDBONUS",
+        "XP",
+        "LOOT"
+      ],
+      "itemLabels": [
+        "RING"
+      ],
+      "incompatibleGroups": [
+        "DUALREWARDBONUS"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "dust-loot-bonus",
+      "name": "Dust Loot Bonus",
+      "labels": [
+        "REWARD",
+        "DUALREWARDBONUS",
+        "DUST",
+        "LOOT"
+      ],
+      "itemLabels": [
+        "RING"
+      ],
+      "incompatibleGroups": [
+        "DUALREWARDBONUS"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "xp-dust-bonus",
+      "name": "XP Dust Bonus",
+      "labels": [
+        "REWARD",
+        "DUALREWARDBONUS",
+        "XP",
+        "DUST"
+      ],
+      "itemLabels": [
+        "RING"
+      ],
+      "incompatibleGroups": [
+        "DUALREWARDBONUS"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": false,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": 1,
+          "weight": 70000
+        },
+        {
+          "tier": 2,
+          "weight": 60000
+        },
+        {
+          "tier": 3,
+          "weight": 40000
+        },
+        {
+          "tier": 4,
+          "weight": 30000
+        }
+      ],
+      "totalWeight": 200000
+    },
+    {
+      "id": "shaitain-s-might",
+      "name": "Shaitain's Might",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "ATTACK",
+        "SHAITAN"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "sandstone-resilience",
+      "name": "Sandstone Resilience",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "DEFENSE",
+        "SANDSTONE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "pirates-expertise",
+      "name": "Pirates Expertise",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "DEXTERITY",
+        "PIRATE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "stheno-s-swiftness",
+      "name": "Stheno's Swiftness",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "SPEED",
+        "STHENO"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "crystalline-vigor",
+      "name": "Crystalline Vigor",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "VITALITY",
+        "CRYSTALLINE"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "avalon-s-intellect",
+      "name": "Avalon's Intellect",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "WISDOM",
+        "AVALON"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "vampiric-lifeforce",
+      "name": "Vampiric Lifeforce",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "LIFE",
+        "VAMPIRIC"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "mermaid-magic",
+      "name": "Mermaid Magic",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "MANA",
+        "MERMAID"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "jester-s-trick",
+      "name": "Jester's Trick",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "JESTER"
+      ],
+      "itemLabels": [
+        "EQUIPMENT"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "flurry-of-blows",
+      "name": "Flurry of Blows",
+      "labels": [
+        "TRADEOFF",
+        "UNIQUE",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "WEAPON DAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "overwhelming-strikes",
+      "name": "Overwhelming Strikes",
+      "labels": [
+        "TRADEOFF",
+        "UNIQUE",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "WEAPON DAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "lucky-streak",
+      "name": "Lucky Streak",
+      "labels": [
+        "REWARD",
+        "DUALREWARDBONUS",
+        "UNIQUE",
+        "STREAK"
+      ],
+      "itemLabels": [
+        "RING"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "DUALREWARDBONUS"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "unholy-spirits",
+      "name": "Unholy Spirits",
+      "labels": [
+        "TRADEOFF",
+        "UNIQUE",
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "SUMMON"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "WEAPON DAMAGE",
+        "WEAPONFIRERATE",
+        "SUMMON"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "ascension-of-geb",
+      "name": "Ascension of Geb",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "LIFE",
+        "MANA",
+        "ATTACK"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "augment-overload",
+      "name": "Augment: Overload",
+      "labels": [
+        "TRADEOFF",
+        "UNIQUE",
+        "WEAPONDAMAGE",
+        "LIFE"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "WEAPON DAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "augment-overdrive",
+      "name": "Augment: Overdrive",
+      "labels": [
+        "TRADEOFF",
+        "UNIQUE",
+        "WEAPONFIRERATE",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "WEAPON DAMAGE",
+        "WEAPONFIRERATE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "ascension-of-nut",
+      "name": "Ascension of Nut",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "LIFE",
+        "MANA",
+        "WISDOM"
+      ],
+      "itemLabels": [
+        "ABILITY"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "arcane-battery",
+      "name": "Arcane Battery",
+      "labels": [
+        "STAT",
+        "SINGLESTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "MANA"
+      ],
+      "itemLabels": [
+        "ABILITY"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "SINGLESTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "ascension-of-bes",
+      "name": "Ascension of Bes",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "LIFE",
+        "MANA",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "ARMOR"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "candy-coated",
+      "name": "Candy-Coated",
+      "labels": [
+        "STAT",
+        "DUALSTAT",
+        "FLATBONUS",
+        "UNIQUE",
+        "DEFENSE"
+      ],
+      "itemLabels": [
+        "ARMOR"
+      ],
+      "incompatibleGroups": [
+        "UNIQUE",
+        "DUALSTAT"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "freezing-regeneration",
+      "name": "Freezing Regeneration",
+      "labels": [
+        "FLATREGEN",
+        "LIFEREGEN",
+        "RECOVERY",
+        "ONHIT",
+        "PROC",
+        "HEALING",
+        "UNIQUE"
+      ],
+      "itemLabels": [
+        "ARMOR"
+      ],
+      "incompatibleGroups": [
+        "LIFEREGEN",
+        "HEALING",
+        "UNIQUE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "frost-barrier",
+      "name": "Frost Barrier",
+      "labels": [
+        "DAMAGERESISTANCE",
+        "ONHIT",
+        "ONHITSTAT",
+        "ARMORED",
+        "PROC",
+        "UNIQUE"
+      ],
+      "itemLabels": [
+        "ARMOR"
+      ],
+      "incompatibleGroups": [
+        "DAMAGERESISTANCE",
+        "ARMORED",
+        "UNIQUE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "permafrost-magic",
+      "name": "Permafrost Magic",
+      "labels": [
+        "FLATREGEN",
+        "MANAREGEN",
+        "ONABILITY",
+        "PROC",
+        "ENERGIZED",
+        "UNIQUE"
+      ],
+      "itemLabels": [
+        "ABILITY"
+      ],
+      "incompatibleGroups": [
+        "MANAREGEN",
+        "ENERGIZED",
+        "UNIQUE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "snow-golems",
+      "name": "Snow Golems",
+      "labels": [
+        "MPCOSTREDUCTION",
+        "ONABILITY",
+        "PROC",
+        "UNIQUE"
+      ],
+      "itemLabels": [
+        "ABILITY"
+      ],
+      "incompatibleGroups": [
+        "MPCOSTREDUCTION",
+        "UNIQUE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "eternal-restoration",
+      "name": "Eternal Restoration",
+      "labels": [
+        "MANAREGEN",
+        "FLATREGEN",
+        "LIFEREGEN",
+        "RECOVERY",
+        "UNIQUE"
+      ],
+      "itemLabels": [
+        "RING"
+      ],
+      "incompatibleGroups": [
+        "LIFEREGEN",
+        "MANAREGEN",
+        "UNIQUE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    },
+    {
+      "id": "razor-shards",
+      "name": "Razor Shards",
+      "labels": [
+        "WEAPONDAMAGE",
+        "ONSHOOT",
+        "PROC",
+        "UNIQUE"
+      ],
+      "itemLabels": [
+        "WEAPON"
+      ],
+      "incompatibleGroups": [
+        "WEAPONDAMAGE",
+        "WEAPONFIRERATE",
+        "UNIQUE"
+      ],
+      "incompatibleLabels": [],
+      "isUnique": true,
+      "isAwakened": false,
+      "maxCopiesPerItem": 1,
+      "tiers": [
+        {
+          "tier": "MAX",
+          "weight": 2000
+        }
+      ],
+      "totalWeight": 2000
+    }
+  ]
+}
