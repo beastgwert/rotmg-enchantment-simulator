@@ -16,6 +16,7 @@ import winterIcon from '../assets/winter.png'
 import homeIcon from '../assets/home.svg'
 import lockedIcon from '../assets/locked.svg'
 import unlockedIcon from '../assets/unlocked.svg'
+import dustIcon from '../assets/dust.png'
 
 function getEnchantmentIcon(labels: string[]): string {
   const upperLabels = labels.map(l => l.toUpperCase())
@@ -59,6 +60,15 @@ function getRarityLabel(slotCount: number): string {
   return 'Unknown'
 }
 
+function getEnchantCost(slotCount: number, lockedCount: number): number {
+  let baseCost = 0
+  if (slotCount === 1) baseCost = 50
+  if (slotCount === 2) baseCost = 60
+  if (slotCount === 3) baseCost = 80
+  if (slotCount === 4) baseCost = 100
+  return baseCost * Math.pow(2, lockedCount)
+}
+
 function tierRarity(tier: number | 'MAX'): string {
   if (tier === 'MAX') return 'legendary'
   if (tier >= 4) return 'legendary'
@@ -73,8 +83,9 @@ interface Props {
   enchants: (RolledEnchantment | null)[]
   locked: boolean[]
   rollCount: number
+  totalDustSpent: number
   onToggleLock: (index: number) => void
-  onReroll: () => void
+  onReroll: (dustCost: number) => void
   onBack: () => void
 }
 
@@ -84,6 +95,7 @@ export function EnchantmentScreen({
   enchants,
   locked,
   rollCount,
+  totalDustSpent,
   onToggleLock,
   onReroll,
   onBack,
@@ -95,7 +107,10 @@ export function EnchantmentScreen({
           <img src={homeIcon} alt="Home" />
         </button>
         <h1>{itemType.toLowerCase()} — {getRarityLabel(slotCount)}</h1>
-        <span className="header-meta">{rollCount} {rollCount === 1 ? 'roll' : 'rolls'}</span>
+        <span className="header-meta">
+          {rollCount} {rollCount === 1 ? 'roll' : 'rolls'} | {totalDustSpent}
+          <img src={dustIcon} alt="dust" className="dust-icon" style={{ marginLeft: '0.25rem' }} />
+        </span>
       </div>
 
       <div className="enchant-slots">
@@ -131,8 +146,16 @@ export function EnchantmentScreen({
         ))}
       </div>
 
-      <button className="roll-btn" onClick={onReroll}>
-        Enchant
+      <button 
+        className="roll-btn" 
+        onClick={() => onReroll(getEnchantCost(slotCount, locked.filter(Boolean).length))}
+        disabled={locked.filter(Boolean).length === slotCount}
+      >
+        <span>Enchant</span>
+        <span className="cost-display">
+          {getEnchantCost(slotCount, locked.filter(Boolean).length)}
+          <img src={dustIcon} alt="dust" className="dust-icon" />
+        </span>
       </button>
     </div>
   )

@@ -15,15 +15,17 @@ function App() {
   const [enchants, setEnchants] = useState<(RolledEnchantment | null)[]>([])
   const [locked, setLocked] = useState<boolean[]>([])
   const [rollCount, setRollCount] = useState(0)
+  const [totalDustSpent, setTotalDustSpent] = useState(0)
 
   const doRoll = useCallback(
-    (type: ItemType, count: number, currentEnchants: (RolledEnchantment | null)[], currentLocked: boolean[]) => {
+    (type: ItemType, count: number, currentEnchants: (RolledEnchantment | null)[], currentLocked: boolean[], dustCost: number) => {
       const slots = Array.from({ length: count }, (_, i) =>
         currentLocked[i] ? currentEnchants[i] : null
       )
       const result = roll(type, slots)
       setEnchants(result)
       setRollCount((c) => c + 1)
+      setTotalDustSpent((d) => d + dustCost)
     },
     []
   )
@@ -38,6 +40,7 @@ function App() {
     const initialLocked = Array(count).fill(false)
     setLocked(initialLocked)
     setRollCount(0)
+    setTotalDustSpent(0)
     setStep('enchant')
     // Initial roll
     const slots = Array(count).fill(null)
@@ -46,9 +49,9 @@ function App() {
     setRollCount(1)
   }
 
-  const handleReroll = () => {
+  const handleReroll = (dustCost: number) => {
     if (!itemType) return
-    doRoll(itemType, slotCount, enchants, locked)
+    doRoll(itemType, slotCount, enchants, locked, dustCost)
   }
 
   const toggleLock = (index: number) => {
@@ -63,6 +66,7 @@ function App() {
     setEnchants([])
     setLocked([])
     setRollCount(0)
+    setTotalDustSpent(0)
     setStep('type')
     setItemType(null)
   }
@@ -82,6 +86,7 @@ function App() {
       enchants={enchants}
       locked={locked}
       rollCount={rollCount}
+      totalDustSpent={totalDustSpent}
       onToggleLock={toggleLock}
       onReroll={handleReroll}
       onBack={handleBack}
