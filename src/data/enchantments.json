@@ -8746,6 +8746,7 @@
       "id": "freezing-regeneration",
       "name": "Freezing Regeneration",
       "labels": [
+        "WINTER",
         "FLATREGEN",
         "LIFEREGEN",
         "RECOVERY",
@@ -8778,6 +8779,7 @@
       "id": "frost-barrier",
       "name": "Frost Barrier",
       "labels": [
+        "WINTER",
         "DAMAGERESISTANCE",
         "ONHIT",
         "ONHITSTAT",
@@ -8809,6 +8811,7 @@
       "id": "permafrost-magic",
       "name": "Permafrost Magic",
       "labels": [
+        "WINTER",
         "FLATREGEN",
         "MANAREGEN",
         "ONABILITY",
@@ -8840,6 +8843,7 @@
       "id": "snow-golems",
       "name": "Snow Golems",
       "labels": [
+        "WINTER",
         "MPCOSTREDUCTION",
         "ONABILITY",
         "PROC",
@@ -8868,6 +8872,7 @@
       "id": "eternal-restoration",
       "name": "Eternal Restoration",
       "labels": [
+        "WINTER",
         "MANAREGEN",
         "FLATREGEN",
         "LIFEREGEN",
@@ -8898,6 +8903,7 @@
       "id": "razor-shards",
       "name": "Razor Shards",
       "labels": [
+        "WINTER",
         "WEAPONDAMAGE",
         "ONSHOOT",
         "PROC",

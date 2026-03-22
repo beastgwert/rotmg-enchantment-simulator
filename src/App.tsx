@@ -60,15 +60,11 @@ function App() {
   }
 
   const handleBack = () => {
-    if (step === 'enchant') {
-      setStep('slots')
-      setEnchants([])
-      setLocked([])
-      setRollCount(0)
-    } else if (step === 'slots') {
-      setStep('type')
-      setItemType(null)
-    }
+    setEnchants([])
+    setLocked([])
+    setRollCount(0)
+    setStep('type')
+    setItemType(null)
   }
 
   if (step === 'type') {

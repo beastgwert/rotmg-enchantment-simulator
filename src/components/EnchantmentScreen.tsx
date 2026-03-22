@@ -12,10 +12,15 @@ import lifetimeProjspeedIcon from '../assets/lifetime_projspeed.png'
 import rewardBonusIcon from '../assets/rewardbonus.png'
 import dualRewardBonusIcon from '../assets/dualrewardbonus.png'
 import uniqueIcon from '../assets/unique.png'
+import winterIcon from '../assets/winter.png'
+import homeIcon from '../assets/home.svg'
+import lockedIcon from '../assets/locked.svg'
+import unlockedIcon from '../assets/unlocked.svg'
 
 function getEnchantmentIcon(labels: string[]): string {
   const upperLabels = labels.map(l => l.toUpperCase())
   
+  if (upperLabels.includes('WINTER')) return winterIcon
   if (upperLabels.includes('UNIQUE')) return uniqueIcon
   if (upperLabels.includes('CASTING')) return castingIcon
   if (upperLabels.includes('DUALREWARDBONUS')) return dualRewardBonusIcon
@@ -44,6 +49,14 @@ function toRoman(num: number): string {
     }
   }
   return result
+}
+
+function getRarityLabel(slotCount: number): string {
+  if (slotCount === 1) return 'uncommon'
+  if (slotCount === 2) return 'rare'
+  if (slotCount === 3) return 'legendary'
+  if (slotCount === 4) return 'divine'
+  return 'Unknown'
 }
 
 function tierRarity(tier: number | 'MAX'): string {
@@ -78,8 +91,10 @@ export function EnchantmentScreen({
   return (
     <div className="enchant-page">
       <div className="enchant-header">
-        <button className="back-btn" onClick={onBack}>← Back</button>
-        <h1>{itemType.toLowerCase()} — {slotCount} {slotCount === 1 ? 'slot' : 'slots'}</h1>
+        <button className="back-btn" onClick={onBack} aria-label="Return home">
+          <img src={homeIcon} alt="Home" />
+        </button>
+        <h1>{itemType.toLowerCase()} — {getRarityLabel(slotCount)}</h1>
         <span className="header-meta">{rollCount} {rollCount === 1 ? 'roll' : 'rolls'}</span>
       </div>
 
@@ -110,16 +125,15 @@ export function EnchantmentScreen({
               onClick={() => onToggleLock(i)}
               title={locked[i] ? 'Unlock (will be rerolled)' : 'Lock (keep on reroll)'}
             >
-              <span className="lock-icon">{locked[i] ? '🔒' : '🔓'}</span>
+              <img src={locked[i] ? lockedIcon : unlockedIcon} alt={locked[i] ? 'Locked' : 'Unlocked'} />
             </button>
           </div>
         ))}
       </div>
 
       <button className="roll-btn" onClick={onReroll}>
-        Reroll Enchantments
+        Enchant
       </button>
-      <span className="roll-count">Total rolls: {rollCount}</span>
     </div>
   )
 }

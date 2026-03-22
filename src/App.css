@@ -96,6 +96,7 @@
   animation: fadeIn 0.3s ease;
   width: 100%;
   max-width: 35rem;
+  font-family: monospace;
 }
 
 .enchant-header {
@@ -107,18 +108,20 @@
 
 .enchant-header .back-btn {
   background: none;
-  border: 0.0625rem solid var(--border);
-  border-radius: 0.375rem;
-  color: var(--text-dim);
+  border: none;
+  padding: 0;
   cursor: pointer;
-  padding: 0.375rem 0.625rem;
-  font-size: 0.875rem;
-  transition: all 0.2s;
+  display: flex;
 }
 
-.enchant-header .back-btn:hover {
-  border-color: var(--border-accent);
-  color: var(--text-bright);
+.enchant-header .back-btn img {
+  width: 1.25rem;
+  height: 1.25rem;
+  filter: invert(0.7);
+}
+
+.enchant-header .back-btn:hover img {
+  filter: invert(1);
 }
 
 .enchant-header h1 {
@@ -189,29 +192,20 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0.375rem;
-  border-radius: 0.25rem;
-  transition: all 0.15s;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.lock-btn:hover {
-  background: var(--bg-hover);
+.lock-btn img {
+  width: 1.25rem;
+  height: 1.25rem;
+  filter: invert(1);
 }
 
-.lock-btn .lock-icon {
-  font-size: 1.125rem;
-  transition: color 0.15s;
-}
-
-.lock-btn.locked .lock-icon {
-  color: var(--lock-color);
-}
-
-.lock-btn.unlocked .lock-icon {
-  color: var(--unlock-color);
+.lock-btn:hover img {
+  filter: invert(0);
 }
 
 /* ── Roll Button ── */
