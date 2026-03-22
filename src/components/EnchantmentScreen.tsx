@@ -1,4 +1,5 @@
-import type { ItemType, RolledEnchantment } from '../lib/types'
+import { useState } from 'react'
+import type { ItemType, RolledEnchantment, TarotCard } from '../lib/types'
 
 import castingIcon from '../assets/casting.png'
 import singleStatIcon from '../assets/single_stat.png'
@@ -17,6 +18,31 @@ import homeIcon from '../assets/home.svg'
 import lockedIcon from '../assets/locked.svg'
 import unlockedIcon from '../assets/unlocked.svg'
 import dustIcon from '../assets/dust.png'
+
+import towerTarot from '../assets/tower_tarot.png'
+import moonTarot from '../assets/moon_tarot.png'
+import devilTarot from '../assets/devil_tarot.png'
+import deathTarot from '../assets/death_tarot.png'
+import chariotTarot from '../assets/chariot_tarot.png'
+import sunTarot from '../assets/sun_tarot.png'
+import worldTarot from '../assets/world_tarot.png'
+import magicianTarot from '../assets/magician_tarot.png'
+import foolTarot from '../assets/fool_tarot.png'
+import wheelOfFortuneTarot from '../assets/wheeloffortune_tarot.png'
+
+const TAROT_CARDS = [
+  { id: 'none', name: 'No Artifact', icon: null, description: null },
+  { id: 'tower', name: 'Tower', icon: towerTarot, description: 'Life Modifiers x4.5; Vampiric Force x15' },
+  { id: 'moon', name: 'Moon', icon: moonTarot, description: 'Mana Modifiers x4.5; Mermaid Magic x15' },
+  { id: 'devil', name: 'Devil', icon: devilTarot, description: 'Attack Modifiers x4.5; Shaitan\'s Might x15' },
+  { id: 'death', name: 'Death', icon: deathTarot, description: 'Defense Modifiers x4.5; Sandstone Resilience x15' },
+  { id: 'chariot', name: 'Chariot', icon: chariotTarot, description: 'Speed Modifiers x4.5; Stheno\'s Swiftness x15' },
+  { id: 'sun', name: 'Sun', icon: sunTarot, description: 'Dexterity Modifiers x4.5; Pirate\'s Expertise x15' },
+  { id: 'world', name: 'World', icon: worldTarot, description: 'Vitality Modifiers x4.5; Crystalline Vigor x15' },
+  { id: 'magician', name: 'Magician', icon: magicianTarot, description: 'Wisdom Modifiers x4.5; Avalon Intellect x15' },
+  { id: 'fool', name: 'Fool', icon: foolTarot, description: 'Stat Modifiers x0.2; Jester\'s Trick x15' },
+  { id: 'wheeloffortune', name: 'Wheel of Fortune', icon: wheelOfFortuneTarot, description: 'Reward Modifiers x4.5; Lucky Streak x15' },
+] as const
 
 function getEnchantmentIcon(labels: string[]): string {
   const upperLabels = labels.map(l => l.toUpperCase())
@@ -85,7 +111,7 @@ interface Props {
   rollCount: number
   totalDustSpent: number
   onToggleLock: (index: number) => void
-  onReroll: (dustCost: number) => void
+  onReroll: (dustCost: number, tarotCard: TarotCard) => void
   onBack: () => void
 }
 
@@ -100,6 +126,41 @@ export function EnchantmentScreen({
   onReroll,
   onBack,
 }: Props) {
+  const [showArtifactSelect, setShowArtifactSelect] = useState(false)
+  const [selectedArtifact, setSelectedArtifact] = useState<TarotCard>('none')
+
+  const handleArtifactSelect = (id: TarotCard) => {
+    setSelectedArtifact(id)
+    setShowArtifactSelect(false)
+  }
+
+  if (showArtifactSelect) {
+    return (
+      <div className="enchant-page">
+        <div className="enchant-header">
+          <h1>Select Artifact</h1>
+        </div>
+
+        <div className="tarot-grid">
+          {TAROT_CARDS.map((card) => (
+            <button
+              key={card.id}
+              className={`tarot-card ${selectedArtifact === card.id ? 'selected' : ''}`}
+              onClick={() => handleArtifactSelect(card.id)}
+            >
+              {card.icon ? (
+                <img src={card.icon} alt={card.name} className="tarot-icon" />
+              ) : (
+                <div className="no-artifact-icon">✕</div>
+              )}
+                <span className="tarot-name">{card.name}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="enchant-page">
       <div className="enchant-header">
@@ -108,7 +169,7 @@ export function EnchantmentScreen({
         </button>
         <h1>{itemType.toLowerCase()} — {getRarityLabel(slotCount)}</h1>
         <span className="header-meta">
-          {rollCount} {rollCount === 1 ? 'roll' : 'rolls'} | {totalDustSpent}
+          {rollCount} rolls | {totalDustSpent}
           <img src={dustIcon} alt="dust" className="dust-icon" style={{ marginLeft: '0.25rem' }} />
         </span>
       </div>
@@ -148,7 +209,7 @@ export function EnchantmentScreen({
 
       <button 
         className="roll-btn" 
-        onClick={() => onReroll(getEnchantCost(slotCount, locked.filter(Boolean).length))}
+        onClick={() => onReroll(getEnchantCost(slotCount, locked.filter(Boolean).length), selectedArtifact)}
         disabled={locked.filter(Boolean).length === slotCount}
       >
         <span>Enchant</span>
@@ -156,6 +217,28 @@ export function EnchantmentScreen({
           {getEnchantCost(slotCount, locked.filter(Boolean).length)}
           <img src={dustIcon} alt="dust" className="dust-icon" />
         </span>
+      </button>
+
+      <button 
+        className="artifact-btn" 
+        onClick={() => setShowArtifactSelect(true)}
+      >
+        {selectedArtifact !== 'none' ? (
+          <>
+            <img 
+              src={TAROT_CARDS.find(c => c.id === selectedArtifact)?.icon || ''} 
+              alt="" 
+              className="artifact-btn-icon" 
+            />
+            <span className="artifact-desc">
+              {TAROT_CARDS.find(c => c.id === selectedArtifact)?.description?.split('; ').map((line, i) => (
+                <span key={i}>{line}</span>
+              ))}
+            </span>
+          </>
+        ) : (
+          <span>Select Artifact</span>
+        )}
       </button>
     </div>
   )

@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import './App.css'
-import type { ItemType, RolledEnchantment } from './lib/types'
+import type { ItemType, RolledEnchantment, TarotCard } from './lib/types'
 import { roll } from './lib/simulator'
 import { EquipmentSelection } from './components/EquipmentSelection'
 import { CountSelection } from './components/CountSelection'
@@ -18,11 +18,11 @@ function App() {
   const [totalDustSpent, setTotalDustSpent] = useState(0)
 
   const doRoll = useCallback(
-    (type: ItemType, count: number, currentEnchants: (RolledEnchantment | null)[], currentLocked: boolean[], dustCost: number) => {
+    (type: ItemType, count: number, currentEnchants: (RolledEnchantment | null)[], currentLocked: boolean[], dustCost: number, tarotCard: TarotCard = "none") => {
       const slots = Array.from({ length: count }, (_, i) =>
         currentLocked[i] ? currentEnchants[i] : null
       )
-      const result = roll(type, slots)
+      const result = roll(type, slots, tarotCard)
       setEnchants(result)
       setRollCount((c) => c + 1)
       setTotalDustSpent((d) => d + dustCost)
@@ -42,16 +42,16 @@ function App() {
     setRollCount(0)
     setTotalDustSpent(0)
     setStep('enchant')
+    
     // Initial roll
     const slots = Array(count).fill(null)
     const result = roll(itemType!, slots)
     setEnchants(result)
-    setRollCount(1)
   }
 
-  const handleReroll = (dustCost: number) => {
+  const handleReroll = (dustCost: number, tarotCard: TarotCard) => {
     if (!itemType) return
-    doRoll(itemType, slotCount, enchants, locked, dustCost)
+    doRoll(itemType, slotCount, enchants, locked, dustCost, tarotCard)
   }
 
   const toggleLock = (index: number) => {

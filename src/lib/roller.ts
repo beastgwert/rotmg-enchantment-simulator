@@ -1,4 +1,5 @@
-import type { EnchantmentDef, RolledEnchantment, TierEntry } from "./types";
+import type { EnchantmentDef, RolledEnchantment, TierEntry, TarotCard } from "./types";
+import { TAROT_MODIFIERS } from "./types";
 
 interface WeightedCandidate {
   enchantment: EnchantmentDef;
@@ -7,24 +8,43 @@ interface WeightedCandidate {
 }
 
 /**
+ * Calculate the weight multiplier for an enchantment based on the selected tarot card.
+ */
+function getTarotMultiplier(ench: EnchantmentDef, tarotCard: TarotCard): number {
+  if (tarotCard === "none") return 1;
+
+  const modifier = TAROT_MODIFIERS[tarotCard];
+  if (ench.id === modifier.uniqueBoost.enchantmentId) {
+    return modifier.uniqueBoost.multiplier;
+  }
+  
+  const upperLabels = ench.labels.map(l => l.toUpperCase());
+  if (upperLabels.includes(modifier.labelMultiplier.label.toUpperCase())) {
+    return modifier.labelMultiplier.multiplier;
+  }
+  
+  return 1;
+}
+
+/**
  * Flatten eligible enchantments into a single weighted pool of (enchantment, tier) pairs.
- * This is "Option 2" from the design: every possible outcome is explicit.
  */
 export function buildWeightedPool(
-  eligible: EnchantmentDef[]
+  eligible: EnchantmentDef[],
+  tarotCard: TarotCard = "none"
 ): WeightedCandidate[] {
   const pool: WeightedCandidate[] = [];
   for (const ench of eligible) {
+    const multiplier = getTarotMultiplier(ench, tarotCard);
     for (const tier of ench.tiers) {
-      pool.push({ enchantment: ench, tier, weight: tier.weight });
+      pool.push({ enchantment: ench, tier, weight: tier.weight * multiplier });
     }
   }
   return pool;
 }
 
 /**
- * Perform a weighted random pick from the pool.
- * Returns null if the pool is empty.
+ * Perform a weighted random pick from the pool (random number between 0 and total weight)
  */
 export function weightedPick(
   pool: WeightedCandidate[]
@@ -39,7 +59,6 @@ export function weightedPick(
     if (roll <= 0) return candidate;
   }
 
-  // Fallback (floating-point edge case)
   return pool[pool.length - 1];
 }
 
@@ -48,9 +67,10 @@ export function weightedPick(
  * Returns the rolled enchantment + tier, or null if nothing is eligible.
  */
 export function rollEnchantment(
-  eligible: EnchantmentDef[]
+  eligible: EnchantmentDef[],
+  tarotCard: TarotCard = "none"
 ): RolledEnchantment | null {
-  const pool = buildWeightedPool(eligible);
+  const pool = buildWeightedPool(eligible, tarotCard);
   const pick = weightedPick(pool);
   if (!pick) return null;
 
