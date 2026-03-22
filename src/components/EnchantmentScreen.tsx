@@ -29,8 +29,11 @@ import worldTarot from '../assets/world_tarot.png'
 import magicianTarot from '../assets/magician_tarot.png'
 import foolTarot from '../assets/fool_tarot.png'
 import wheelOfFortuneTarot from '../assets/wheeloffortune_tarot.png'
+import silverTarot from '../assets/silver_tarot.png'
+import goldTarot from '../assets/gold_tarot.png'
+import diamondTarot from '../assets/diamond_tarot.png'
 
-const TAROT_CARDS = [
+const TAROT_CARDS: { id: TarotCard; name: string; icon: string | null; description: string | null }[] = [
   { id: 'none', name: 'No Artifact', icon: null, description: null },
   { id: 'tower', name: 'Tower', icon: towerTarot, description: 'Life Modifiers x4.5; Vampiric Force x15' },
   { id: 'moon', name: 'Moon', icon: moonTarot, description: 'Mana Modifiers x4.5; Mermaid Magic x15' },
@@ -42,7 +45,10 @@ const TAROT_CARDS = [
   { id: 'magician', name: 'Magician', icon: magicianTarot, description: 'Wisdom Modifiers x4.5; Avalon Intellect x15' },
   { id: 'fool', name: 'Fool', icon: foolTarot, description: 'Stat Modifiers x0.2; Jester\'s Trick x15' },
   { id: 'wheeloffortune', name: 'Wheel of Fortune', icon: wheelOfFortuneTarot, description: 'Reward Modifiers x4.5; Lucky Streak x15' },
-] as const
+  { id: 'silver', name: 'Silver', icon: silverTarot, description: 'Min Tier: II; Unique Modifiers x1.8' },
+  { id: 'gold', name: 'Gold', icon: goldTarot, description: 'Min Tier: III; Unique Modifiers x2.6' },
+  { id: 'diamond', name: 'Diamond', icon: diamondTarot, description: 'Min Tier: IV; Unique Modifiers x3.4' },
+]
 
 function getEnchantmentIcon(labels: string[]): string {
   const upperLabels = labels.map(l => l.toUpperCase())

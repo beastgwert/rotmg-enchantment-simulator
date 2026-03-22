@@ -11,11 +11,16 @@ export type TarotCard =
   | "world"
   | "magician"
   | "fool"
-  | "wheeloffortune";
+  | "wheeloffortune"
+  | "silver"
+  | "gold"
+  | "diamond";
 
 export interface TarotModifier {
-  labelMultiplier: { label: string; multiplier: number };
-  uniqueBoost: { enchantmentId: string; multiplier: number };
+  labelMultiplier?: { label: string; multiplier: number };
+  uniqueBoost?: { enchantmentId: string; multiplier: number };
+  minTier?: number;
+  uniqueMultiplier?: number;
 }
 
 export const TAROT_MODIFIERS: Record<Exclude<TarotCard, "none">, TarotModifier> = {
@@ -58,6 +63,18 @@ export const TAROT_MODIFIERS: Record<Exclude<TarotCard, "none">, TarotModifier> 
   wheeloffortune: {
     labelMultiplier: { label: "REWARD", multiplier: 4.5 },
     uniqueBoost: { enchantmentId: "lucky-streak", multiplier: 15 },
+  },
+  silver: {
+    minTier: 2,
+    uniqueMultiplier: 1.8,
+  },
+  gold: {
+    minTier: 3,
+    uniqueMultiplier: 2.6,
+  },
+  diamond: {
+    minTier: 4,
+    uniqueMultiplier: 3.4,
   },
 };
 
