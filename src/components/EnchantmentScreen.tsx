@@ -226,7 +226,7 @@ export function EnchantmentScreen({
       </button>
 
       <button 
-        className="artifact-btn" 
+        className="secondary-btn artifact-btn" 
         onClick={() => setShowArtifactSelect(true)}
       >
         {selectedArtifact !== 'none' ? (

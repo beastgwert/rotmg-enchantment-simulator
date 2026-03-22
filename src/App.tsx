@@ -5,8 +5,9 @@ import { roll } from './lib/simulator'
 import { EquipmentSelection } from './components/EquipmentSelection'
 import { CountSelection } from './components/CountSelection'
 import { EnchantmentScreen } from './components/EnchantmentScreen'
+import { StartingEnchantments } from './components/StartingEnchantments'
 
-type Step = 'type' | 'slots' | 'enchant'
+type Step = 'type' | 'slots' | 'starting' | 'enchant'
 
 function App() {
   const [step, setStep] = useState<Step>('type')
@@ -37,15 +38,18 @@ function App() {
 
   const handleSelectSlots = (count: number) => {
     setSlotCount(count)
-    const initialLocked = Array(count).fill(false)
+    setStep('starting')
+  }
+
+  const handleStartingConfirm = (startingEnchants: (RolledEnchantment | null)[]) => {
+    const initialLocked = Array(slotCount).fill(false)
     setLocked(initialLocked)
     setRollCount(0)
     setTotalDustSpent(0)
     setStep('enchant')
-    
-    // Initial roll
-    const slots = Array(count).fill(null)
-    const result = roll(itemType!, slots)
+
+    // Roll unfilled slots, keep pre-selected ones
+    const result = roll(itemType!, startingEnchants)
     setEnchants(result)
   }
 
@@ -77,6 +81,16 @@ function App() {
 
   if (step === 'slots') {
     return <CountSelection itemType={itemType!} onSelect={handleSelectSlots} />
+  }
+
+  if (step === 'starting') {
+    return (
+      <StartingEnchantments
+        itemType={itemType!}
+        slotCount={slotCount}
+        onConfirm={handleStartingConfirm}
+      />
+    )
   }
 
   return (
