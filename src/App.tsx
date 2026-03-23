@@ -66,7 +66,16 @@ function App() {
     })
   }
 
-  const handleBack = () => {
+  const handleBackToType = () => {
+    setStep('type')
+    setItemType(null)
+  }
+
+  const handleBackToSlots = () => {
+    setStep('slots')
+  }
+
+  const handleBackToHome = () => {
     setEnchants([])
     setLocked([])
     setRollCount(0)
@@ -80,7 +89,7 @@ function App() {
   }
 
   if (step === 'slots') {
-    return <CountSelection itemType={itemType!} onSelect={handleSelectSlots} />
+    return <CountSelection itemType={itemType!} onSelect={handleSelectSlots} onBack={handleBackToType} />
   }
 
   if (step === 'starting') {
@@ -89,6 +98,7 @@ function App() {
         itemType={itemType!}
         slotCount={slotCount}
         onConfirm={handleStartingConfirm}
+        onBack={handleBackToSlots}
       />
     )
   }
@@ -103,7 +113,7 @@ function App() {
       totalDustSpent={totalDustSpent}
       onToggleLock={toggleLock}
       onReroll={handleReroll}
-      onBack={handleBack}
+      onBack={handleBackToHome}
     />
   )
 }

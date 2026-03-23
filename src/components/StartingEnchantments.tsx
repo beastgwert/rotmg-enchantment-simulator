@@ -3,6 +3,7 @@ import type { ItemType, EnchantmentDef, RolledEnchantment } from '../lib/types'
 import type { EnchantmentData } from '../lib/types'
 import { matchesItemType, areCompatible } from '../lib/compatibility'
 import enchantmentData from '../data/enchantments.json'
+import backButtonSvg from '../assets/back-button.svg'
 
 const data = enchantmentData as EnchantmentData
 const allEnchantments: EnchantmentDef[] = data.enchantments
@@ -16,6 +17,7 @@ interface Props {
   itemType: ItemType
   slotCount: number
   onConfirm: (startingEnchants: (RolledEnchantment | null)[]) => void
+  onBack: () => void
 }
 
 function toRolledEnchantment(def: EnchantmentDef, tier: number | 'MAX'): RolledEnchantment {
@@ -69,7 +71,7 @@ function validateSelections(
   return null
 }
 
-export function StartingEnchantments({ itemType, slotCount, onConfirm }: Props) {
+export function StartingEnchantments({ itemType, slotCount, onConfirm, onBack }: Props) {
   const [selections, setSelections] = useState<Selection[]>(
     Array.from({ length: slotCount }, () => ({ enchantmentId: 'random', tier: 1 }))
   )
@@ -115,6 +117,9 @@ export function StartingEnchantments({ itemType, slotCount, onConfirm }: Props) 
 
   return (
     <div className="screen">
+      <button className="back-button" onClick={onBack}>
+        <img src={backButtonSvg} alt="Back" />
+      </button>
       <h1 className="screen-title">Starting Enchantments</h1>
 
       <div className="starting-slots">
